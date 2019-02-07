@@ -7,7 +7,7 @@ body{
     position: fixed;
     width: 100%;
     background: black;
-    padding: 20 0;
+    padding: 20px;
     transition: all 1s;
 }
 ul{
