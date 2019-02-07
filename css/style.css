@@ -31,3 +31,22 @@ a:hover{
 .block:nth-child(odd){
     background: blue;
 }
+#scrollToTop{
+    position: fixed;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 4em;
+    background: black;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    opacity: 0;
+    transition: all 1s;
+}
+#scrollToTop:hover{
+    cursor: crosshair;
+}
