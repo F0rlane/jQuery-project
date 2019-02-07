@@ -26,8 +26,8 @@ a:hover{
     height: 400px;
 }
 .block:nth-child(even){
-    color: red;
+    background: red;
 }
 .block:nth-child(odd){
-    color: blue;
+    background: blue;
 }
