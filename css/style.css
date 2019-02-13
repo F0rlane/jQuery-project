@@ -53,3 +53,43 @@ a:hover{
 #scrollToTop:hover{
     cursor: crosshair;
 }
+
+/* Slider  */
+.slidesshow-container{
+    max-width: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    /* position: absolute; */
+    bottom: 50px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.prev, .next{
+    /* position: absolute; */
+    top: 40%;
+    color: #fff;
+    font-size: 40px;
+}
+.prev:hover, .next:hover{
+    cursor: pointer;
+    color: blue;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+.slides{
+    display: none;
+}
+.active{
+    display: block;
+}
+/* Slider */
