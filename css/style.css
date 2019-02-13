@@ -9,6 +9,7 @@ body{
     background: black;
     padding: 20px 0px;
     transition: all 1s;
+    z-index: 99;
 }
 ul{
     display: flex;
