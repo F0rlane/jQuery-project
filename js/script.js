@@ -14,8 +14,8 @@ $(window).on("scroll", function(){
 $(window).on("scroll", function(){
         var positionY = $(this).scrollTop();
     if(positionY > 100){
-        $("#navBar").addClass("barScroll");
+         $("#navBar").css("padding", "0");
     }else if(positionY < 99){
-        $("#navBar").removeClass("barScroll");
+        $("#navBar").css("padding", "20");
     }
 })
